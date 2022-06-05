@@ -22,13 +22,14 @@ title: Might be INTriGuing
 email: slpp95prashanth@yahoo.com
 description: >- # this means to ignore newlines until "baseurl:"
   Experiments that might intrigue you
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/docs" # the subpath of your site, e.g. /blog
+url: "https://common-logs.github.io/docs" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: NOne
 github_username:  slpp95prashanth
 
 # Build settings
 theme: minima
+#remote_theme: mmistakes/minimal-mistakes 
 plugins:
   - jekyll-feed
 
