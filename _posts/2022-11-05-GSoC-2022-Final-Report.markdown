@@ -10,6 +10,12 @@ peripheral support throughout the Google Summer of Code 2022.
 <!-- To center align text -->
 <!-- {: style="color:gray; font-size: 80%; text-align: center;"} -->
 
+<h3>Final commits</h3>
+All the feature-specific commits are squashed into two commits (CAN framework and DCAN support).
+
+* [CAN Framework support](https://github.com/RTEMS/rtems/commit/cd91b37dce728b372f164355719a4e601e12e7b3)
+* [DCAN peripheral support](https://github.com/RTEMS/rtems/commit/26d50bdfb601b9ef71ec2b30d2d9467c2437f443)
+
 <h3>Project Overview</h3>
 The objective of this project is to add CAN Framework and DCAN peripheral support for BeagleBone Black System on Chip in 
 RTEMS. CAN protocol is a robust, reliable and multi-master serial communication protocol 
@@ -61,12 +67,6 @@ In the third phase,
 * Adding CAN loopback driver.
 * Testing CAN framework and DCAN driver.
 * Adding documentation.
-
-<h3>Final commits</h3>
-All the feature-specific commits are squashed into two commits (CAN framework and DCAN support).
-
-* [CAN Framework support](https://github.com/RTEMS/rtems/commit/cd91b37dce728b372f164355719a4e601e12e7b3)
-* [DCAN peripheral support](https://github.com/RTEMS/rtems/commit/26d50bdfb601b9ef71ec2b30d2d9467c2437f443)
 
 <h3>Output</h3>
 <h4>CAN Loopback Test Application</h4>
